@@ -53,7 +53,10 @@ html {
                     outline: 2px solid black;
 
                     .slider__track {
+                        position: relative;
                         display: flex;
+                        transition: .7s;
+                        left: 0;
 
                         .slider__image {
                             img {
